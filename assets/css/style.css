@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+}
+#wrapper{
+	font-family: 'Inconsolata', monospace;
+}
+.clear:after, :before{
+	content: "";
+	display: block;
+	clear:both;
+}
+main, header, .footer{
+	width: 100%;/*
+	font-family: 'Inconsolata', monospace;*/
+}
+/*addons*/
+/*	[class*=col-]{
+		outline:1px solid red;
+	}*/
+
+.hero-bg{
+	background-image: url('../images/rx78-full.jpg');
+/*	background-attachment: fixed;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.main-bg{
+	background-image: url('../images/rx0-unicorn.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 100%;
+}.question-bg{
+	background-image: url('../images/questionmark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.pw{
+  color: #E0E0E0;
+}
