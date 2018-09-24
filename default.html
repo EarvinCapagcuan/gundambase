@@ -6,10 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>Mobile Suit wiki</title>
 	<link rel="icon" href="./assets/images/rx78-head.png">
-	<!-- personalized css -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<!-- personalized css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!-- google fonts | inconsolata --><!-- 
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> -->
 	<!-- fontawesome maybe -->
@@ -21,55 +21,59 @@
 
 </head>
 <body>
- 	<header class="mt-0 pt-0">
-		<nav class="navbar navbar-expand-lg m-0 p-0" style="background-color: #681A10; mix-blend-mode: saturation;">
-			<a href="#" class="navbar-brand p-2 mb-0 pw"><img src="./assets/images/rx78-head.png" height="64" width="64">Mobile Suit Gundam</a>
-			<ul class="navbar-nav ml-auto p-0 mt-0	">
-				<li class="nav-item m-0 p-0"><a class="nav-link pw border-right mt-0 pr-1" href="./index.html">About</a></li>
-				<li class="nav-item m-0 p-0"><a class="nav-link pw border-right mt-0 pr-1" href="./list.html">Gundam List</a></li>
-				<li class="nav-item m-0 p-0"><a class="nav-link pw mt-0 pr-1" href="./contactus.html">Contact Us</a></li>
-			</ul>
+ 	<header>
+		<nav class="navbar navbar-expand-lg m-0 p-0" style="background-color: #681A10;">
+			<a href="./index.html" class="navbar-brand p-2 mb-0 pw"><img src="./assets/images/rx78-head.png" height="64" width="64">Gundam Base</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+   				 <span class="navbar-toggler-icon bg-light"></span>
+  			</button>
+			
+  			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ml-auto p-0 mt-0 text-center" >
+					<li class="nav-item m-0 p-0 active"><a class="nav-link pw border-right mt-0" href="./gundam-timeline.html">Gundam Timeline</a></li>
+					<li class="nav-item m-0 p-0"><a class="nav-link pw border-right mt-0" href="./gundam-list.html">Gundam List</a></li>
+					<li class="nav-item m-0 p-0"><a class="nav-link pw mt-0" href="./contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
-	<main class="h-100">
-		<div class="container-fluid h-100 hero-bg">
-			<div class="row h-25 mb-2">
-				<div class="col-lg-5 offset-lg-1 mt-5">
+	<main class="container-fluid hero-bg h-100">
+			<section class="row l-row h-auto mb-1">
+				<div class="col-lg-5 pr-0 pl-0 offset-lg-1 mt-3 w-100">
 					<div class="card">
-						<div class="card-body p-2">
+						<div class="card-body pr-1 pl-1">
 							<blockquote class="blockquote mb-0">
-								<span>A world gained through battle will only bring forth new battles</span>
-								<span class="blockquote-footer">Kira Yamato, Mobile Suit Gundam Seed</span>
+								<p class="display-5"><em>&quot;A world gained through battle will only bring forth new battles&quot;</em></p>
+								<span class="text-muted mr-auto"><small>-Kira Yamato, Mobile Suit Gundam Seed</small></span>
 							</blockquote>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row h-25 mb-1">
-				<div class="col-lg-3 offset-lg-1 pr-0">
+			</section>
+			<section class="row l-row h-25 mb-1">
+				<div class="col-lg-3 col-xs-3 offset-lg-1 pr-1 pl-1">
 					<div class="card h-100" style="background-color: #E0E0E0; opacity: .7;">
-						<a href="./index.html" class="h-100 card-body">Know your Mobile Suit</a>
+						<a href="./index.html" class="h-100 card-body">What is a Gundam?</a>
 					</div>
 				</div>
-				<div class="col-lg-2 pl-1">
+				<div class="col-lg-2 col-sm-6 col-md-7 pl-1 pr-1">
 					<div class="card h-100" style="background-color: #681A10; opacity: .7;">
-						<a href="./" class="h-100 card-body">Mech gallery</a>
+						<a href="./" class="h-100 card-body">?</a>
 					</div>
 				</div>				
-			</div>
-			<div class="row h-25">
-				<div class="col-lg-2 offset-lg-1 pr-0">
+			</section>
+			<section class="row l-row h-25">
+				<div class="col-lg-2 col-sm-6 col-md-7 offset-lg-1 pl-1 pr-1">
 					<div class="card h-100"  style="background-color: #21210B; opacity: .7;">
-						<a href="" class="h-100 card-body">Authors and Recommendations</a>
+						<a href="" class="h-100 card-body">About</a>
 					</div>
 				</div>	
-				<div class="col-lg-3 pl-1">
+				<div class="col-lg-3 col-sm-6 col-md-5 pl-1 pr-1">
 					<div class="card h-100"  style="background-color: #D1D185; opacity: .7;">
-						<a href="./" class="h-100 card-body">Gunpla (Gundam Plastic Model Kits)</a>
+						<a href="./" class="h-100 card-body">?</a>
 					</div>
 				</div>				
-			</div>
-		</div>
+			</section>
 	</main>
 	<footer class="w-100 text-center">
 		<small class="text-muted">Copyright &copy; 2018</small>
