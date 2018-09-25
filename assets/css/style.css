@@ -15,10 +15,6 @@ html, body{
 	display: block;
 	clear:both;
 }
-main, header, .footer{
-	/*width: 100%;
-	font-family: 'Inconsolata', monospace;*/
-}
 /*addons*/
 /*[class*=col]{
 		outline:1px solid red;
@@ -32,6 +28,7 @@ main, header, .footer{
 }
 .pw{
   color: #E0E0E0;
+  margin
 }
 
 .imb > img.card-img{
@@ -51,9 +48,28 @@ main, header, .footer{
 	color: white;
 	text-shadow: 0px 0px 10px black;
 }
+#index-header, .footer{
+	background-color:hsla(360, 100%, 100%, 0.54);
+}
+nav{
+	background-color: #681A10;
+}
+.specs-container{
+	background-color:#F7F7F9;
+	font-size: .7rem;
+}
+.ob-fit{
+	object-fit: cover;
+}
+.pw:hover{
+	color: black;
+}
+
+
+
 @media only screen and (max-width: 640px){
 	html{
-		font-size: .7em
+		font-size: .7em;
 	}
 	.hero-bg{
 		background-attachment: fixed;
@@ -64,7 +80,6 @@ main, header, .footer{
 		padding:0;
 		margin: 0;
 	}
-
 	.l-row > [class*=col]{
 		padding-left:0;
 		padding-right:0;
@@ -76,16 +91,9 @@ main, header, .footer{
 }
 @media only screen and (max-width: 768px) and (min-width: 640.8px){
 	html{
-		font-size: .7em
+		font-size: .9em;
 	}
-	.row{
-		margin:0;
-		padding:0; 
-	}	
 	.hero-bg{
 		background-position: 60% 0;
-	}
-	.card-over{
-		width: 1000px;
 	}
 }

@@ -6,10 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>Mobile Suit wiki</title>
 	<link rel="icon" href="./assets/images/rx78-head.png">
-	<!-- personalized css -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<!-- personalized css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!-- google fonts | inconsolata --><!-- 
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> -->
 	<!-- fontawesome maybe -->
@@ -17,127 +17,79 @@
 	<!-- bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </head>
 <body>
- 	<header class="mt-0 pt-0">
-		<nav class="navbar navbar-expand-lg m-0 p-0" style="background-color: #681A10; mix-blend-mode: saturation;">
-			<a href="./index.html" class="navbar-brand p-2 mb-0 pw"><img src="./assets/images/rx78-head.png" height="64" width="64">Gundam Base</a>
-			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-   				 <span class="navbar-toggler-icon bg-light"></span>
-  			</button>
-			
-  			<div class="collapse navbar-collapse" id="navbarContent">
-				<ul class="navbar-nav ml-auto p-0 mt-0 text-center" >
-					<li class="nav-item m-0 p-0 active"><a class="nav-link pw border-right mt-0 pr-1" href="./gundam-timeline.html">Gundam Timeline</a></li>
-					<li class="nav-item m-0 p-0"><a class="nav-link pw border-right mt-0 pr-1" href="./gundam-list.html">Gundam List</a></li>
-					<li class="nav-item m-0 p-0"><a class="nav-link pw mt-0 pr-1" href="./contactus.html">Contact Us</a></li>
-				</ul>
-			</div>
-		</nav>
+ 	<header class="fixed-top border-bottom" id="index-header">
+ 		<div class="p-2 w-100"><a href="#"><img src="./assets/images/rx78-head.png" height="64" width="64">Gundam Base</a></div>
 	</header>
-	<main class="container-fluid h-100 w-100 clear">
-		<section class="row pt-3 ">
-			<div class="col-lg-3 offset-lg-1">
-				<img src="./assets/images/rx78-2-alt.jpg" style="width: 100%; height: 100%; object-fit: cover;">				
-			</div>
-			<div class="col-lg-7 bg-light" style="border-radius:15px 15px 0 0; background-color: #E0E0E0;">
-				<h3>What is Gundam?</h3>
-				 <p>Mobile Suit Gundam was developed by animator Yoshiyuki Tomino and a changing group of Sunrise creators with the collective pseudonym of Hajime Yatate. Gundam (Japanese: ガンダム Hepburn: Gandamu), also known as the Gundam Series (ガンダムシリーズ Gandamu Shirīzu), is a science fiction media franchise that features giant robots (mecha) called mobile suits bearing the name Gundam.  The series was originally entitled Freedom Fighter Gunboy (or Gunboy) for the robot's gun, with boys the primary target demographic. Early production had a number of references to freedom: the White Base was originally "Freedom's Fortress", the Core Fighter was the "Freedom Wing" and the Gunperry was the "Freedom Cruiser". The Yatate team combined the English word "gun" with the last syllable of the word "freedom" to form the portmanteau Gundom. Tomino changed it to Gundam, suggesting a unit wielding a gun powerful enough to hold back enemies like a hydroelectric dam holding back water. In keeping with the concept, Gundam are depicted as prototypes or limited-production, with higher capabilities than mass-produced units.</p>
-			</div>
-		</section>
-		<section class="row">
-			<div class="col-lg-10 offset-lg-1 bg-light" style="border-radius:15px 0 0 0; background-color: #E0E0E0;">
-				<p>It began on April 7, 1979 as Mobile Suit Gundam, a TV series featuring giant robots in a militaristic setting. The popularity of the series and its merchandise spawned a franchise that includes television series, OVAs, films, manga, novels and video games.</p>
-				<p>Gunpla (plastic Gundam models) make up 90 percent of the Japanese character plastic-model market. Academics in Japan have viewed the series as inspiration; in 2008, the virtual Gundam Academy was planned as the first academic institution based on an animated TV series.</p>
-				<p>The Gundam franchise had grossed over $5 billion in retail sales by 2000. By 2014, annual revenue of the Gundam franchise reached ¥80 billion per year, ¥18.4 billion of which was retail sales of toys and hobby items. As of June 2018, Gundam is the 15th highest-grossing media franchise of all time, estimated to have generated more than $15 billion in total revenue.</p>
+	<main class="container-fluid hero-bg h-100 pt-5">
+			<section class="row l-row h-auto mt-3 mb-1 pt-5">
+				<div class="col-lg-5 col-sm-12 col-md-6 pr-0 pl-0 offset-lg-1 mt-3 w-100">
+					<div class="card">
+						<div class="card-body pr-1 pl-1">
+							<blockquote class="blockquote mb-0 p-2">
+								<p class="display-5"><em>&quot;A world gained through battle will only bring forth new battles&quot;</em></p>
+								<span class="text-muted mr-auto"><small>-Kira Yamato, Mobile Suit Gundam Seed</small></span>
+							</blockquote>
+						</div>
+					</div>
+				</div>
 			</section>
-		</section>
-		<section class="row mt-0 pb-3 border-bottom">
-			<div class="col-lg-10 offset-lg-1 text-light p-2"  style="border-radius: 0 0 15px 15px; background-color: #682E26;">
-				<p>Mobile Suit Gundam reportedly pioneered the real robot subgenre of mecha anime. Unlike its super robot cousins, Mobile Suit Gundam attempted realism in its robot design and weaponry by running out of energy and ammunition or malfunctioning. Its technology is derived from actual science (such as Lagrange points and the O'Neill cylinder in space) or feasible technology requiring only a few fictional elements to function (such as Minovsky Physics).
-				</p>
-			</div>
-		</section>
-		<section class="row mt-2">
-			<div class="col-lg-8 offset-lg-2 bg-light text-center" style="background-color: #682E26;">
-				<h3>Some of the most iconic Mobile Suits</h3>
-			</div>
-		</section>
-		<section class="row mt-0 ml-3 mr-3">
-			<div class="col-lg-2 offset-lg-3 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/barbatos-lupus-rescaled.jpg" class="card-img card-over" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style pr-5">ASW-G-08 Barbatos</span></a>
+			<section class="row l-row h-auto mb-1">
+				<div class="col-lg-3 col-sm-6 col-md-3 offset-lg-1 pr-1 pl-1">
+					<div class="card h-100" style="background-color: #E0E0E0; opacity: .7;">
+						<a href="./about-gundam.html" class="h-100 card-body">What is a Gundam?</a>
+					</div>
 				</div>
-			</div>
-			<div class="col-lg-2 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/turna-gundam-rescaled.jpg" class="card-img" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style">Turn A</span></a>
-				</div>
-			</div>
-			<div class="col-lg-2 px-0">
-				<div class="card">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/zeta-gundam-re.jpg" class="card-img" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style">Zeta Gundam</span></a>
-				</div>
-			</div>
-		</section>
-		<section class="row mt-0 ml-3 mr-3 pt-0">
-			<div class="col-lg-2 offset-lg-3 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/gundam-wing-zero-rescaled.jpg" class="card-img" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style pt-5">Gundam Wing Zero</span>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-2 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/rx0-unicorn2.jpg" class="card-img" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style">RX-0 Unicorn</span></a>
-				</div>
-			</div>
-			<div class="col-lg-2 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/god-gundam-rescaled.jpg" class="card-img" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style pt-5">God Gundam</span></a>
-				</div>
-			</div>
-		</section>
-		<section class="row mt-0 ml-3 mr-3 pt-0">
-			<div class="col-lg-2 offset-lg-3 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/rx78-1-rescaled.jpg" class="card-img"width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style pt-5">RX-78 2</span></a>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 col-sm-6 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/strike-freedom-gundam-rescaled.jpg" class="card-img" width="450px" height="200px" >
-					<span class="card-img-overlay overlay-style pt-5">Strike Gundam</span></a>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 col-sm-6 px-0">
-				<div class="card imb">
-					<a href="./" class="card-body m-0 p-0">
-					<img src="./assets/images/exia.jpg" class="card-img" width="450px" height="200px" style="object-fit: cover;">
-					<span class="card-img-overlay overlay-style">GN-001 Exia</span></a>
-				</div>
-			</div>
-		</section>
-	<footer class="w-100 text-center clear">
-		<small class="text-muted">Copyright &copy; 2018</small>
-	</footer>
+				<div class="col-lg-2 col-sm-6 col-md-3 pl-1 pr-1">
+					<div class="card h-100" style="background-color: #681A10; opacity: .7;">
+						<a href="./gundam-list.html" class="h-100 card-body">Gundam List</a>
+					</div>
+				</div>				
+			</section>
+			<section class="row l-row h-auto">
+				<div class="col-lg-2 col-sm-6 col-md-3 offset-lg-1 pl-1 pr-1">
+					<div class="card h-100"  style="background-color: #21210B; opacity: .7;">
+						<a href="./gundam-timeline.html" class="h-100 card-body">Gundam Timelines</a>
+					</div>
+				</div>	
+				<div class="col-lg-3 col-sm-6 col-md-3 pl-1 pr-1">
+					<div class="card h-100"  style="background-color: #D1D185; opacity: .7;">
+						<a href="./contactus.html" class="h-100 card-body">Contact Us</a>
+					</div>
+				</div>	
+				</section>			
+			</section>
+	<div class="footer w-100 text-center boder fixed-bottom border-top">
+		<small class="text-muted m-0">Copyright &copy; 2018 | JEK Capagcuan<a href="#disclaimer-modal" data-toggle="modal" data-target="#disclaimer-modal">Disclaimer</a></small>
+	</div>
 	</main>
+	<!-- disclaimer modal -->
+	<div class="modal fade" id="disclaimer-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exia-modal-label">Disclaimer</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>All the information on this website - gundambase.com - is published in good faith and for educational purposes only. Gundam Base does not make any warranties about the completeness, reliability and accuracy of this information. The images found in this website does not belong to the developer, credits are to the respective owners. Any action you take upon the information you find on this website (Gundam Base), is strictly at your own risk. Gundam Base will not be liable for any losses and/or damages in connection with the use of our website.</p>
+					<p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
+					<h5>Consent</h5>
+					<p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
+					<p>If you require any more information, suggestions or have any questions about our site's disclaimer, please feel free to contact us by clicking the "Contact Us" button below.</p>
+				</div>
+				<div class="modal-footer">
+					<a href="./contactus.html" class="btn  btn-secondary">Contac Us</a>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
