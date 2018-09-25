@@ -28,9 +28,10 @@ html, body{
 }
 .pw{
   color: #E0E0E0;
-  margin
 }
-
+.pw2{
+  color: black;
+}
 .imb > img.card-img{
 	width: 100%;
 	height: 100%;
@@ -63,6 +64,9 @@ nav{
 }
 .pw:hover{
 	color: black;
+}
+.pw2:hover{
+  color: grey;
 }
 
 
