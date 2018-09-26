@@ -10,29 +10,34 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<!-- hover css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/hover.css">
 	<!-- google fonts | inconsolata --><!-- 
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> -->
 	<!-- fontawesome maybe -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<!-- bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </head>
 <body>
+	<!-- scroll up button -->
+	<span class="fixed-bottom"><a href="#" id="goUp"><i class="fas fa-arrow-alt-circle-up fa-4x"></i></a></span>
+	<!-- personalized js -->
+	<script src="./assets/js/jscript.js"></script>
  	<header class="mt-0 pt-0">
 		<nav class="navbar navbar-expand-lg m-0 p-0">
-			<a href="index.html" class="navbar-brand p-2 mb-0 pw mr-auto"><img src="./assets/images/rx78-head.png" height="64" width="64">Gundam Base</a>
+			<a href="./index.html" class="navbar-brand p-2 mb-0 pw mr-auto"><img src="./assets/images/rx78-head.png" height="64" width="64">Gundam Base</a>
 			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-   				 <span class="navbar-toggler-icon bg-light"></span>
+   				 <i class="fas fa-bars fa-1x pw"></i>
   			</button>
 			
   			<div class="collapse navbar-collapse" id="navbarContent">
 				<ul class="navbar-nav ml-auto p-0 mt-0 text-center" >
 					<li class="nav-item m-0 p-0 active"><a class="nav-link pw border-right mt-0 pr-1" href="./gundam-timeline.html">Gundam Timeline</a></li>
 					<li class="nav-item m-0 p-0"><a class="nav-link pw border-right mt-0 pr-1" href="./gundam-list.html">Gundam List</a></li>
-					<li class="nav-item m-0 p-0"><a class="nav-link pw mt-0 pr-1" href="#">Contact Us</a></li>
+					<li class="nav-item m-0 p-0"><a class="nav-link pw mt-0 pr-1" href="./contactus.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -69,7 +74,7 @@
 			<div class="col-lg-2 offset-lg-3 px-0">
 				<div class="card imb">
 					<a href="#barbatos-modal" class="card-body m-0 p-0" data-toggle="modal" data-target="#barbatos-modal">
-					<img src="./assets/images/barbatos-lupus-rescaled.jpg" class="card-img card-over ob-fit" width="450px" height="200px">
+					<img src="./assets/images/barbatos-lupus-rescaled.jpg" class="card-img  card-over ob-fit" width="450px" height="200px">
 					<span class="card-img-overlay overlay-style pr-5">ASW-G-08 Barbatos</span></a>
 				</div>
 			</div>
@@ -150,7 +155,7 @@
 							<p>The ASW-G-08 Gundam Barbatos is the main mobile suit of the Mobile Suit Gundam IRON-BLOODED ORPHANS television series. The unit is primarily piloted by Mikazuki Augus.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn btn-secondary">More information</a>
+							<a href="./specs-barbatos.html" target="_blank" class="btn btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -171,7 +176,7 @@
 							<p>The Turn A (∀) Gundam was originally designed for interstellar warfare. Unlike other mobile suits (even those that predate the Turn-A itself), the Turn A is powered by a DHGCP power plant (Discontinuous Hyperoscillation Gauge Collapsing Pile) which is essentially an artificial black hole. This is used in conjuction with an innovative reactionless I-Field Beam Drive system to move the suit's limbs and provide thrust. As a result, the unit's chest is almost entirely hollow and can equip various weapons inside, such as missiles or beam cannons. The legs too are hollow due to the use of the I-Field Beam Drive, and contain an array of thruster vanes which are used to power the suit's jumps and flight. This leaves the back of the unit free to store more weapons and equipment if desired.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-turna.html" target="_blank" class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -192,7 +197,7 @@
 							<p>MSΖ-006 Zeta Gundam (MSΖ-006 Ζゼータ ガンダム) is the titular mobile suit of the Mobile Suit Zeta Gundam television series and also featured in the Mobile Suit Gundam ZZ television series. It was most famously piloted by its designer, Kamille Bidan during the Gryps War.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-zeta.html" target="_blank"  class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -213,7 +218,7 @@
 							<p>XXXG-00W0 Wing Gundam Zero (Endless Waltz Ver.) (XXXG-00W0 ウイングガンダム ゼロ(EW版)) is a version of Wing Gundam Zero that appears in the OVA/movie Mobile Suit Gundam Wing: Endless Waltz. It is redesigned by series's mecha designer Hajime Katoki.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-wing-zero.html" target="_blank"  class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -234,7 +239,7 @@
 							<p>The RX-0 Unicorn Gundam (ユニコーン ガンダム Yunikōn Gandamu?, or Unicorn Gundam, Unicorn, RX-0) is the titular prototype mobile suit of the Mobile Suit Gundam Unicorn novel, its OVA adaptation and the television re-cut. Developed by Anaheim Electronics for the Earth Federation, the machine concealed a secret that could shake the future of all humanity,[1] for it was the key to opening Laplace's Box. The suit is piloted by Banagher Links after the head of the Vist Foundation and his father, Cardeas Vist, entrusted it to him at the dawn of the Third Neo Zeon War in U.C. 0096.[2]</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-rx0.html"  target="_blank" class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -255,7 +260,7 @@
 							<p>The GF13-017NJII God Gundam (aka G Gundam, Burning Gundam in the English dub) is the titular Mobile Fighter of Mobile Fighter G Gundam. It was the second Mobile Fighter used by Neo Japan in the 13th Gundam Fight, and is piloted by Domon Kasshu.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-ggundam.html" target="_blank"  class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -276,7 +281,7 @@
 							<p>The RX-78-2 Gundam (aka the Gundam or White Mobile Suit) is the titular mobile suit of Mobile Suit Gundam. Part of the RX-78 Gundam series, it was built in secret on Side 7. The Gundam would turn the tide of war in favor of the Earth Federation during the One Year War against the Principality of Zeon. The unit was primarily piloted by the series' main protagonist Amuro Ray.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-rx78.html" target="_blank"  class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -297,7 +302,7 @@
 							<p>The ZGMF-X20A Strike Freedom Gundam (aka Strike Freedom, Freedom) is the successor of the ZGMF-X10A Freedom. Appearing in Mobile Suit Gundam SEED Destiny, it is piloted by Kira Yamato.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-barbatos.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-strike.html" target="_blank"  class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
@@ -318,14 +323,13 @@
 							<p>The GN-001 Gundam Exia (aka Exia, Gundam Seven Swords), is the close combat Gundam-type mobile suit featured in both seasons of Mobile Suit Gundam 00. The unit is piloted by Setsuna F. Seiei.</p>
 						</div>
 						<div class="modal-footer">
-							<a href="./specs-rx78.html" class="btn  btn-secondary">More information</a>
+							<a href="./specs-exia.html" target="_blank"  class="btn  btn-secondary">More information</a>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
 	<footer class="w-100 text-center clear">
 		<small class="text-muted">Copyright &copy; 2018</small>
 	</footer>
